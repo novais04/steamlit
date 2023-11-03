@@ -202,4 +202,4 @@ with st.expander("View Data"):
     
 # dowaload orginal dataset
 csv = df.to_csv(index=False).encode('utf8')
-st.download_button("Download Data", data = csv, file_name=r"../programming_is_fun/dataData.csv", mime="text/csv")
+st.download_button("Download Data", data = csv, file_name="dataData.csv", mime="text/csv")
